@@ -72,13 +72,6 @@ These three features account for 79.9% of the model's predictive power. Note tha
 - **Model Persistence**: joblib
 - **Environment**: Python 3.12
 
-## Files in Repository
-
-- `house-price-prediction-public.ipynb` - Complete, clean implementation notebook
-- `house_price_model.pkl` - Trained Model
-- `model_features.pkl` - Feature names for predictions
-- `README-PROFESSIONAL.md` - This file
-
 ## Usage
 
 ### Load and Use the Trained Model
