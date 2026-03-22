@@ -40,12 +40,13 @@ Developed an ML model to predict house prices using advanced feature engineering
 
 ## 📊 Exploratory Data Analysis (EDA) Findings
 
+- Used both Linear Regression and Random Forest ML Algorithms 
 - Dataset contains 19,648 housing samples with diverse property features
 - Price distribution was right-skewed, indicating presence of luxury properties
 - Identified and removed outliers using Interquartile Range (IQR) method
 - Missing values were minimal; handled through appropriate imputation
-- Feature engineering dropped harmful feature to combat multicolinearity 
-- Feature engineering created new features (i.e Income Per Occupant)
+- Feature engineering replaced AvgBedroom with BedroomRatio to combat multicolinearity 
+- Feature engineering created new features (i.e Income Per Occupant(IPO))
 - Highest Feature Importance for the created feature IPO, beating MedInc with highest positive correlation
 - Multicollinearity analysis ensured features were independent (VIF < 5)
 - Normalized all numerical features for consistent scaling across the model
@@ -64,4 +65,4 @@ Developed an ML model to predict house prices using advanced feature engineering
 
 ---
 
-*For detailed methodology and code implementation, see the project documentation.*
+*For detailed methodology and code implementation, contact me*
