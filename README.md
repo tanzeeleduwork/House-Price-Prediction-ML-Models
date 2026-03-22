@@ -74,35 +74,6 @@ These three features account for 79.9% of the model's predictive power. Note tha
 
 ## Usage
 
-### Load and Use the Trained Model
-
-```python
-import joblib
-import pandas as pd
-
-# Load the trained model and feature names
-model = joblib.load('house_price_model.pkl')
-feature_names = joblib.load('model_features.pkl')
-
-# Prepare your data with the required features
-# Features required: ['MedInc', 'HouseAge', 'AveRooms', 'AveBedrms', 
-#                     'Population', 'AveOccup', 'Latitude', 'Longitude',
-#                     'RoomsPerBedroom', 'BedroomRatio', 'IncomePerOccupant']
-
-# Create the engineered features
-X['RoomsPerBedroom'] = X['AveRooms'] / X['AveBedrms']
-X['BedroomRatio'] = X['AveBedrms'] / X['AveRooms']
-X['IncomePerOccupant'] = X['MedInc'] / X['AveOccup']
-
-# Make predictions
-predictions = model.predict(X[feature_names])
-```
-
-### Run the Notebook
-
-```bash
-jupyter notebook house-price-prediction.ipynb
-```
 
 ## Model Performance Metrics
 
