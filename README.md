@@ -27,7 +27,10 @@ Developed an ML model to predict house prices using advanced feature engineering
 
 #### After Outlier Removal
 ![Price Distribution After Cleaning](results/price_distribution_clean.png)
+
 ---
+### Feature Correlations
+![Correlation Heatmap](results/correlation_heatmap.png)
 
 ### Feature Importance
 ![Feature Importance](results/feature_importance.png)
@@ -35,8 +38,6 @@ Developed an ML model to predict house prices using advanced feature engineering
 ### Price Distribution & Model Fit
 ![Model Comparison](results/model_comparison.png)
 
-### Feature Correlations
-![Correlation Heatmap](results/correlation_heatmap.png)
 
 ## 📊 Exploratory Data Analysis (EDA) Findings
 
