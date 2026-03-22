@@ -72,9 +72,6 @@ These three features account for 79.9% of the model's predictive power. Note tha
 - **Model Persistence**: joblib
 - **Environment**: Python 3.12
 
-## Usage
-
-
 ## Model Performance Metrics
 
 - **Training R² Score**: 0.8956
