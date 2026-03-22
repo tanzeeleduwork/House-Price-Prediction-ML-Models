@@ -18,7 +18,16 @@ Developed an ML model to predict house prices using advanced feature engineering
 - **Train/Test Split**: 80% / 20%
 - **Best Predictor**: Income Per Occupant (0.519 importance)
 
-## Model Insights
+## 📉 Model Insights
+
+### Data Cleaning Impact
+
+#### Before Outlier Removal
+![Price Distribution Before Cleaning](results/price_distribution.png)
+
+#### After Outlier Removal
+![Price Distribution After Cleaning](results/price_distribution_clean.png)
+---
 
 ### Feature Importance
 ![Feature Importance](results/feature_importance.png)
