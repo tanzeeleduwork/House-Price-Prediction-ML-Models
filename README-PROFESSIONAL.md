@@ -74,10 +74,10 @@ These three features account for 79.9% of the model's predictive power. Note tha
 
 ## Files in Repository
 
-- `house-price-prediction.ipynb` - Complete, clean implementation notebook
-- `house_price_model.pkl` - Trained Random Forest model
+- `house-price-prediction-public.ipynb` - Complete, clean implementation notebook
+- `house_price_model.pkl` - Trained Model
 - `model_features.pkl` - Feature names for predictions
-- `README.md` - This file
+- `README-PROFESSIONAL.md` - This file
 
 ## Usage
 
