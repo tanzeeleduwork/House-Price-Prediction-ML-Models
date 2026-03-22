@@ -38,12 +38,29 @@ Developed an ML model to predict house prices using advanced feature engineering
 ### Feature Correlations
 ![Correlation Heatmap](results/correlation_heatmap.png)
 
+## 📊 Exploratory Data Analysis (EDA) Findings
+
+- Dataset contains 19,648 housing samples with diverse property features
+- Price distribution was right-skewed, indicating presence of luxury properties
+- Identified and removed outliers using Interquartile Range (IQR) method
+- Missing values were minimal; handled through appropriate imputation
+- Feature engineering dropped harmful feature to combat multicolinearity 
+- Feature engineering created new features (i.e Income Per Occupant)
+- Highest Feature Importance for the created feature IPO, beating MedInc with highest positive correlation
+- Multicollinearity analysis ensured features were independent (VIF < 5)
+- Normalized all numerical features for consistent scaling across the model
+
+---
+
 ## What This Shows
 
-**Model effectively captures 79.75% of price variance**
-**27% improvement over baseline linear regression**
-**Top 3 features identified and validated**
-**Robust generalization on held-out test data**
+- **Model effectively captures 79.75% of price variance**
+
+- **27% improvement over baseline linear regression**
+
+- **Top 3 features identified and validated**
+
+- **Robust generalization on held-out test data**
 
 ---
 
