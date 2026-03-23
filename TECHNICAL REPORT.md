@@ -21,7 +21,7 @@ This project builds a predictive model for house prices using ensemble learning 
 
 ### 1. Data Preparation
 - Loaded California Housing Dataset (20,640 samples)
-- Detected and removed outliers using Interquartile Range (IQR) method
+- Detected outliers due to Price Capping at 500$
 - Removed 992 extreme price outliers (4.8% of data)
 - Verified data quality with minimal missing values
 
