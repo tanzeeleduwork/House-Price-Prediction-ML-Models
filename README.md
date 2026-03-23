@@ -66,4 +66,4 @@ Developed an ML model to predict house prices using advanced feature engineering
 
 ---
 
-*For detailed methodology and code implementation, check README and Jupyter Source File*
+*For detailed methodology and code implementation, check Technical Report and Jupyter Source File*
