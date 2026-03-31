@@ -15,7 +15,7 @@ This project builds a predictive model for house prices using ensemble learning 
 | **RMSE** | $44,059 |
 | **Improvement vs Baseline** | 27.1% |
 | **Dataset Size** | 19,648 samples |
-| **Features Used** | 10 (8 original + 2 engineered) |
+| **Features Used** | 10 (7 original + 3 engineered) |
 
 ## Project Workflow
 
