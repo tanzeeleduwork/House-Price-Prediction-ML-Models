@@ -14,7 +14,7 @@ Developed an ML model to predict house prices using advanced feature engineering
 ## Key Results
 
 - **Training Samples**: 19,648
-- **Parameters Used**: 11 features
+- **Parameters Used**: 10 features
 - **Train/Test Split**: 80% / 20%
 - **Best Predictor**: Income Per Occupant (0.519 importance)
 
